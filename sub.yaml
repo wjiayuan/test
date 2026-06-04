@@ -1,33 +1,5 @@
 proxies:
-  - alpn:
-      - h3
-    name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s"
-    password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
-    port: 17398
-    server: osg01.7770123.xyz
-    sni: osg01.7770123.xyz
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|632KB/s"
-    network: xhttp
-    packet-encoding: xudp
-    port: 15530
-    reality-opts:
-      public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-      short-id: "aa45df0f"
-    server: 178.18.147.163
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-    xhttp-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-    xudp: true
-    servername: www.microsoft.com
-  - name: "\U0001F1F7\U0001F1FARU_1|2.2MB/s"
+  - name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s"
     obfs: salamander
     obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
     password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -37,129 +9,9 @@ proxies:
     sni: tunel1.washing.help
     tfo: false
     type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_1|444KB/s"
-    password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-    port: 5228
-    server: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
-    tls: true
-    type: http
-    udp: true
-    username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-    sni: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
-  - name: "\U0001F1ED\U0001F1F0HK_2|1.2MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 50712
-    server: 18.183.163.141
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_3|1.3MB/s"
-    password: BxceQaOe
-    port: 50712
-    server: 18.183.163.141
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-    network: tcp
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|700KB/s"
-    network: xhttp
-    port: 443
-    server: nl2.gamelistak.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 28c5a701-06bd-47fb-a4fd-9ac5c51437b1
-    xhttp-opts:
-      host: nl2.gamelistak.com
-      mode: auto
-      path: /MrNexTV2RAY
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: nl2.gamelistak.com
-  - name: "\U0001F1FA\U0001F1F8US_1|360KB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 17801
-    server: 95.40.68.192
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_4|394KB/s"
-    network: tcp
-    password: d84665c37878196ecf983cf6910e3b44
-    port: 53018
-    server: 18.181.199.223
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1F8\U0001F1ECSG_2|981KB/s"
-    password: d84665c37878196ecf983cf6910e3b44
-    port: 3842
-    server: 18.181.199.223
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-    network: tcp
-  - name: "\U0001F1F8\U0001F1ECSG_3|351KB/s"
-    password: BxceQaOe
-    port: 10478
-    server: 43.199.217.71
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-    network: tcp
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|913KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-    port: 4433
-    server: 185.228.139.247
-    skip-cert-verify: true
-    sni: de2.xiaoliyu.cyou
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_3|777KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-    port: 4433
-    server: 185.228.139.247
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|535KB/s"
-    port: 443
-    reality-opts:
-      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-      short-id: "7a3f9e2b1c8d4f6a"
-    server: 31.76.113.110
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-    network: tcp
-    servername: it.s3-cloud.xyz
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_2|521KB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|530KB/s"
     port: 443
     reality-opts:
       public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -172,766 +24,547 @@ proxies:
     uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
     network: tcp
     servername: it.s3-cloud.xyz
-  - name: "\U0001F1F0\U0001F1F7KR_1|349KB/s"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - name: "\U0001F1F8\U0001F1ECSG_4|637KB/s"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  - name: "\U0001F1F8\U0001F1ECSG_1|529KB/s"
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
     port: 3233
-    server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
+    server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
     tls: true
     type: http
     udp: true
-    username: 16955d72-1794-11f0-a035-f23c95b6f51d
-    sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  - client-fingerprint: chrome
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  - client-fingerprint: edge
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_1|546KB/s"
-    port: 443
-    reality-opts:
-      public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
-      short-id: "57cc65bfd5ef7465"
-    server: 185.212.117.34
+    name: "\U0001F1FA\U0001F1F8US_1|504KB/s"
+    port: 22231
+    server: r1.mizulina.top
     skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
-    servername: www.scaleway.com
-  - name: "\U0001F1FA\U0001F1F8US_2|523KB/s"
-    password: BxceQaOe
-    port: 2520
-    server: 95.40.4.37
-    skip-cert-verify: true
-    sni: 95.40.4.37
-    type: trojan
+    servername: r1.mizulina.top
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|392KB/s"
+    port: 22231
+    server: r1.mizulina.top
+    skip-cert-verify: false
+    tls: true
+    type: vless
     udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_3|340KB/s"
-    password: BxceQaOe
-    port: 17801
-    server: 95.40.68.192
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
+    servername: r1.mizulina.top
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_3|665KB/s"
+    port: 22231
+    server: 85.234.114.53
+    skip-cert-verify: false
+    tls: true
+    type: vless
     udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: "\U0001F1E9\U0001F1EADE_4|470KB/s"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 500
-  - delay: 862
-    name: "\U0001F1ED\U0001F1F0HK_5|3.1MB/s"
-    password: BxceQaOe
-    port: 50712
-    server: 18.183.163.141
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    udp: true
+    servername: r1.mizulina.top
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_4|459KB/s"
     network: tcp
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_5|817KB/s"
-    network: xhttp
     port: 443
-    server: 176.103.113.16
+    server: 85.234.114.53
     tls: true
     type: vless
     udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      mode: packet-up
-      path: /xn--q9jyb4c
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_6|1.7MB/s"
-    network: xhttp
-    port: 443
-    server: 45.192.222.130
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_5|608KB/s"
+    network: tcp
+    port: 22231
+    server: r1.mizulina.top
     tls: true
     type: vless
     udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    servername: r1.mizulina.top
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EADE_7|1.1MB/s"
-    network: xhttp
-    port: 443
-    server: 185.156.19.225
+    name: "\U0001F1E9\U0001F1EADE_1|628KB/s"
+    network: tcp
+    port: 8443
+    server: cdn9-33.vk-cdnvideo.com
     tls: true
     type: vless
     udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
     xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
+    servername: cdn9-33.vk-cdnvideo.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EADE_8|661KB/s"
-    network: xhttp
-    port: 443
-    server: 5.175.141.14
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_9|1.9MB/s"
-    network: xhttp
-    port: 443
-    server: 45.130.125.96
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_10|613KB/s"
-    network: xhttp
-    port: 443
-    server: 141.193.213.10
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_11|1.0MB/s"
-    network: xhttp
-    port: 443
-    server: 109.234.211.106
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_12|906KB/s"
-    network: xhttp
-    port: 443
-    server: 204.153.16.135
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_13|2.2MB/s"
-    network: xhttp
-    port: 443
-    server: 5.10.215.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_14|568KB/s"
-    network: xhttp
-    port: 443
-    server: 31.185.108.182
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F9\U0001F1F7TR_1|512KB/s"
-    network: xhttp
-    port: 20609
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_6|1.6MB/s"
+    network: tcp
+    port: 8443
     reality-opts:
-      public-key: aVfj7ITwEFsWQP4YjFuM-FBb8PWmfBYOwKu_Ag8dVVI
-      short-id: "d675939d"
-    server: se.sanaz.online
+      public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
+      short-id: "a987b6bd1781daa3"
+    server: 5.35.85.51
     tls: true
     type: vless
     udp: true
-    uuid: 2ddbde64-5bed-4209-b0bf-6a3f090d198c
+    uuid: 888403d1-621b-481a-b5dc-7aca518a787b
+    xudp: true
+    servername: www.kinopoisk.ru
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|504KB/s"
+    network: tcp
+    port: 8443
+    server: cdn9-33.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    xudp: true
+    servername: cdn9-33.vk-cdnvideo.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_3|1.4MB/s"
+    network: ws
+    port: 2087
+    server: clpol.portalcode.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 03192830-2b81-4e18-a7f3-cb77d4377325
+    ws-opts:
+      headers:
+        Host: 883c53ba0d9cc16a.rainzone.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /
+    xudp: true
+    servername: 883c53ba0d9cc16a.rainzone.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_4|572KB/s"
+    network: ws
+    port: 443
+    server: ip.moji.lat
+    tls: true
+    type: vless
+    udp: true
+    uuid: c39c8197-0861-4c3d-b404-9d52df00349b
+    ws-opts:
+      headers:
+        Host: spider.moji.lat
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: /
+    xudp: true
+    servername: spider.moji.lat
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_7|1.8MB/s"
+    network: xhttp
+    port: 443
+    server: 45.130.125.2
+    tls: true
+    type: vless
+    udp: true
+    uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
     xhttp-opts:
-      host: se.sanaz.online
+      host: www.middle.cc.cd
       mode: stream-one
-      path: /stream
+      path: >-
+        /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+    xudp: true
+    servername: www.middle.cc.cd
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|1.9MB/s"
+    network: xhttp
+    port: 443
+    server: 5.10.214.53
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5e5608a2-9893-4eaa-b90a-e202bacef5b6
+    xhttp-opts:
+      host: cdn.safev2ray.store
+      mode: auto
+      path: /kir
+    xudp: true
+    servername: cdn.safev2ray.store
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_8|756KB/s"
+    network: raw
+    port: 443
+    server: 85.234.114.53
+    tls: true
+    type: vless
+    udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    xudp: true
+    servername: r1.mizulina.top
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_5|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: qr9I7Hv2oZ2F0BiWgy9DmYHp0vcFEXcNRVHkyFg3OUw
+      short-id: "8fa9"
+    server: 5.75.196.174
+    tls: true
+    type: vless
+    udp: true
+    uuid: 977ceb11-cd98-47f1-a1ab-838164681989
+    xudp: true
+    servername: www.cloudflare.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|671KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: YtMwlaOi_MU9kXcCgFef_-GrHTWNyiHR1UWGo24daAk
+      short-id: "1ec4acc748fb237e"
+    server: 37.203.35.59
+    tls: true
+    type: vless
+    udp: true
+    uuid: bb2ee88f-b178-4f81-91e6-ac85fdffe454
+    xudp: true
+    servername: www.microsoft.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s"
+    network: xhttp
+    port: 80
+    reality-opts:
+      public-key: bPC70WXyPEUh8l4LSTdbACXer6Fhpw4tVwoMYLD_oxc
+      short-id: "9d7b90df3283d95a"
+    server: nert.96s.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: f29fb004-34cc-424d-96bf-af70190e6e3d
+    xhttp-opts:
+      host: nert.96s.ir
+      mode: auto
+      path: /obito
       x-padding-bytes: 100-1000
     xudp: true
     servername: www.yahoo.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EADE_15|2.5MB/s"
-    network: xhttp
-    port: 443
-    server: 159.242.242.91
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_16|966KB/s"
-    network: xhttp
-    port: 443
-    server: 91.209.253.225
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_17|852KB/s"
-    network: xhttp
-    port: 443
-    server: 141.193.213.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_18|1.2MB/s"
-    network: xhttp
-    port: 443
-    server: 77.105.163.187
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_19|979KB/s"
-    network: xhttp
-    port: 443
-    server: 154.81.141.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_20|1.9MB/s"
-    network: xhttp
-    port: 443
-    server: 204.153.16.19
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_21|2.0MB/s"
-    network: xhttp
-    port: 443
-    server: 204.153.16.207
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_22|1.3MB/s"
-    network: xhttp
-    port: 443
-    server: 31.185.108.74
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_23|580KB/s"
-    network: xhttp
-    port: 443
-    server: 74.49.215.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_24|2.0MB/s"
-    network: xhttp
-    port: 443
-    server: 114.129.43.151
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_25|1.3MB/s"
-    network: xhttp
-    port: 443
-    server: 188.114.96.250
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_26|1.6MB/s"
-    network: xhttp
-    port: 443
-    server: 74.49.215.15
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_27|2.3MB/s"
-    network: xhttp
-    port: 443
-    server: 66.45.118.182
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_28|1.7MB/s"
-    network: xhttp
-    port: 443
-    server: 154.81.141.128
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_29|968KB/s"
-    network: xhttp
-    port: 443
-    server: 8.34.146.43
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_30|1.1MB/s"
-    network: xhttp
-    port: 443
-    server: 37.153.171.41
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_31|1.4MB/s"
-    network: xhttp
-    port: 443
-    server: 176.103.113.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_32|1.6MB/s"
-    network: xhttp
-    port: 443
-    server: 162.159.193.202
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_33|1.5MB/s"
-    network: xhttp
-    port: 443
-    server: 188.114.97.194
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_34|544KB/s"
-    network: xhttp
-    port: 443
-    server: 45.196.29.223
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_35|756KB/s"
-    network: xhttp
-    port: 443
-    server: 213.182.199.142
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_36|619KB/s"
-    network: xhttp
-    port: 443
-    server: 139.64.235.48
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_37|1.9MB/s"
-    network: xhttp
-    port: 443
-    server: 49.238.238.158
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_38|1.0MB/s"
-    network: xhttp
-    port: 443
-    server: 185.207.197.94
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_39|947KB/s"
-    network: xhttp
-    port: 443
-    server: 74.49.214.169
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - name: "\U0001F1F9\U0001F1FCTW_1|815KB/s"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - name: "\U0001F1F8\U0001F1ECSG_5|972KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_2|977KB/s"
     network: tcp
-    password: d84665c37878196ecf983cf6910e3b44
-    port: 2511
-    server: 18.162.232.155
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1F8\U0001F1ECSG_6|1.5MB/s"
-    network: tcp
-    password: d84665c37878196ecf983cf6910e3b44
-    port: 3842
-    server: 18.181.199.223
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1F8\U0001F1ECSG_7|2.5MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 10478
-    server: 43.199.217.71
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-  - name: "\U0001F1ED\U0001F1F0HK_6|374KB/s"
-    password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-    port: 5228
-    server: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
-    sni: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
+    port: 2020
+    reality-opts:
+      public-key: hYV9JHyp6YskIc-B-0p5GhvFhmrw8yekdU_O8JhpniY
+      short-id: "add15237"
+    server: sell.sigikala.site
     tls: true
-    type: http
-    username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+    type: vless
+    udp: true
+    uuid: 0cbf332d-0188-4ea2-a3f5-623650825bc5
+    xudp: true
+    servername: Yahoo.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E9\U0001F1EADE_7|641KB/s"
+    password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
+    port: 28655
+    server: 109.120.138.95
+    type: ss
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_2|2.0MB/s"
+    network: xhttp
+    port: 443
+    server: 45.130.125.190
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5e5608a2-9893-4eaa-b90a-e202bacef5b6
+    xhttp-opts:
+      host: cdn.safev2ray.store
+      mode: auto
+      path: /kir
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: cdn.safev2ray.store
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_2|511KB/s"
+    network: ws
+    port: 443
+    server: 162.159.141.236
+    tls: true
+    type: vless
+    udp: true
+    uuid: b9eef4fb-1a50-4bd2-ced3-7caba7a465e4
+    ws-opts:
+      headers:
+        Host: newspeedbypass.wt4p2ppro.me
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /
+    xudp: true
+    servername: newspeedbypass.wt4p2ppro.me
+  - name: "\U0001F1E9\U0001F1EADE_8|777KB/s"
+    port: 8443
+    server: cdn9-33.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    network: tcp
+    servername: cdn9-33.vk-cdnvideo.com
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_2|651KB/s"
+    name: "\U0001F1EC\U0001F1E7GB_2|906KB/s"
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.91
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    network: tcp
+    servername: it.s3-cloud.xyz
+  - name: "\U0001F1E9\U0001F1EADE_9|358KB/s"
+    port: 8443
+    server: cdn9-33.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    network: tcp
+    servername: cdn9-33.vk-cdnvideo.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_1|339KB/s"
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    port: 8300
+    server: a0ef01f1-t9w4g0-tedj2a-1glq.hkt.east.wctype.com
+    skip-cert-verify: true
+    sni: a0ef01f1-t9w4g0-tedj2a-1glq.hkt.east.wctype.com
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_2|336KB/s"
+    password: 06c625ea-5902-11ee-9e87-f23c9313b177
+    port: 8300
+    server: 85677df4-t9w4g0-tbo02e-4mce.hkt.east.wctype.com
+    skip-cert-verify: true
+    sni: 85677df4-t9w4g0-tbo02e-4mce.hkt.east.wctype.com
+    type: anytls
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_3|657KB/s"
+    password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+    port: 5228
+    server: 69fbd04b-ta1og0-ta5i1s-1j61y.cm4.oshuawei.com
+    sni: 69fbd04b-ta1og0-ta5i1s-1j61y.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_4|637KB/s"
+    password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+    port: 5228
+    server: 2de0e51d-teisg0-tg0j4k-gacy.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+    sni: 2de0e51d-teisg0-tg0j4k-gacy.cm4.oshuawei.com
+  - name: "\U0001F1ED\U0001F1F0HK_5|329KB/s"
+    password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+    port: 5228
+    server: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com
+    sni: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  - name: "\U0001F1ED\U0001F1F0HK_6|651KB/s"
+    password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    port: 5228
+    server: 19b7ea9d-t9zts0-tbnk1n-ueq.cm4.oshuawei.com
+    sni: 19b7ea9d-t9zts0-tbnk1n-ueq.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_7|669KB/s"
+    password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+    port: 5228
+    server: 0dbc2e62-t9zts0-tbao5v-gacy.cm4.oshuawei.com
+    sni: 0dbc2e62-t9zts0-tbao5v-gacy.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_8|901KB/s"
+    password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    port: 5228
+    server: 6ffda144-t9zts0-th1s9h-8rja.cm4.oshuawei.com
+    sni: 6ffda144-t9zts0-th1s9h-8rja.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_9|709KB/s"
+    password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+    port: 5228
+    server: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
+    sni: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_10|612KB/s"
+    password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+    port: 5228
+    server: 79673ec2-tekn40-ts40sw-14g76.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+    sni: 79673ec2-tekn40-ts40sw-14g76.cm4.oshuawei.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_11|609KB/s"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 8300
+    server: 4d060537-t9xz40-tb70mp-4550.hkt.east.wctype.com
+    skip-cert-verify: true
+    sni: 4d060537-t9xz40-tb70mp-4550.hkt.east.wctype.com
+    type: anytls
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_12|579KB/s"
+    password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+    port: 5228
+    server: a9fbf7cf-t9zts0-thv9l4-1jbj0.cm4.oshuawei.com
+    sni: a9fbf7cf-t9zts0-thv9l4-1jbj0.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  - name: "\U0001F1EF\U0001F1F5JP_1|369KB/s"
+    password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+    port: 443
+    server: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com
+    sni: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com
+    tls: true
+    type: http
+    username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_13|381KB/s"
+    password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+    port: 5228
+    server: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
+    sni: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  - name: "\U0001F1ED\U0001F1F0HK_14|300KB/s"
+    password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+    port: 5228
+    server: 92c540e6-ta1og0-tnfe2z-1s4hc.cm4.oshuawei.com
+    sni: 92c540e6-ta1og0-tnfe2z-1s4hc.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_15|642KB/s"
+    password: f7d95364-607b-11ee-93af-f23c91369f2d
+    port: 5228
+    server: b8395f91-tegxs0-tv7zgh-1ijh5.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: f7d95364-607b-11ee-93af-f23c91369f2d
+    sni: b8395f91-tegxs0-tv7zgh-1ijh5.cm4.oshuawei.com
+  - name: "\U0001F1ED\U0001F1F0HK_16|880KB/s"
+    password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+    port: 5228
+    server: c3b31bad-t9zts0-ta6lxc-jjv2.cm4.oshuawei.com
+    sni: c3b31bad-t9zts0-ta6lxc-jjv2.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  - name: "\U0001F1ED\U0001F1F0HK_17|306KB/s"
+    password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+    port: 5228
+    server: baf98563-ta1og0-ta7ccz-1j0a4.cm4.oshuawei.com
+    sni: baf98563-ta1og0-ta7ccz-1j0a4.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_18|797KB/s"
+    password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+    port: 5228
+    server: b3c62336-t9zts0-tm23vf-1jk6u.cm4.oshuawei.com
+    sni: b3c62336-t9zts0-tm23vf-1jk6u.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_19|356KB/s"
+    password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+    port: 5228
+    server: e9179328-t9zts0-tifnix-1ro8s.cm4.oshuawei.com
+    sni: e9179328-t9zts0-tifnix-1ro8s.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  - name: "\U0001F1EF\U0001F1F5JP_2|442KB/s"
+    password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+    port: 443
+    server: 3c3915de-t9zts0-ta5i1s-1j61y.jp.oshuawei.com
+    sni: 3c3915de-t9zts0-ta5i1s-1j61y.jp.oshuawei.com
+    tls: true
+    type: http
+    username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  - name: "\U0001F1EE\U0001F1E9ID_1|303KB/s"
+    password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+    port: 32233
+    server: 4728932c-ta1og0-thmjbt-1rk9y.id.oshuawei.com
+    sni: 4728932c-ta1og0-thmjbt-1rk9y.id.oshuawei.com
+    tls: true
+    type: http
+    username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU_2|1002KB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
-      short-id: "57cc65bfd5ef7465"
-    server: 185.212.117.34
+      public-key: c9eCHF41FReFLIdarpg8M5edw4_E133EJBzrvYS02Ck
+      short-id: "cd9a5f0edff48da4"
+    server: 213.108.2.130
     tls: true
     type: vless
     udp: true
-    uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
+    uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
     xudp: true
-    servername: www.scaleway.com
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_40|2.1MB/s"
-    network: tcp
-    port: 443
-    server: 45.77.67.185
-    type: vless
-    udp: true
-    uuid: 56f389ce-8e0f-42fd-889d-5c4b698b534f
-    xudp: true
-  - name: "\U0001F1F9\U0001F1F7TR_2|394KB/s"
-    network: tcp
-    port: 37141
-    server: 185.181.211.81
-    type: vless
-    udp: true
-    uuid: 71310f0a-1c4f-492d-8dec-fd755639d08a
-    xudp: true
+    servername: cloudflare.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     include-all: true
